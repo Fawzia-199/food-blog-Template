@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="content/assets/images/logo.png" type="image/icon type">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="content/css/vendors/all.css">
+    <link rel="stylesheet" href="content/css/vendors/bootstrap.css">
+    <link rel="stylesheet" href="content/css/main/blog-style.css">
+    <title>Blog</title>
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-sm navbar-light ">
+    <div class="container-fluid">
+      <img src="content/assets/images/logo.png" alt="logo" class="navbar-brand">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">countries</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Moroco</a></li>
+              <li><a class="dropdown-item" href="#">Spain</a></li>
+              <li><a class="dropdown-item" href="#">Italy</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">blogs</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="hero__sect">
+        <div class="container h-100">
+        <div class="row justify-content-center align-content-center h-100">
+            <h1 class="hero-head ">
+                It's not just food, it's a lifestyle
+            </h1>
+        </div>
+        </div>
+        <div class="cover"></div>
+    </section>
+    <section class="artical__sect">
+        <div class="container">
+          <div class="tab container-fluid mb-3">
+            <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6  text-center">
+               <div class="tab-content">
+                <button class="tablinks " onclick="openCity(event, 'Mental')">
+                    <span class="arti-icon"><i class="fa-solid fa-brain"></i></span>
+                    <h3 class="tab-head">Mental health</h3>
+                </button>
+               </div>
+               </div>
+            <div class="col-lg-3 col-md-3 col-sm-6  text-center">
+                <div class="tab-content">
+                <button class="tablinks" onclick="openCity(event, 'physical')">
+                    <span class="arti-icon"><i class="fa-solid fa-dumbbell"></i></span>
+                    <h3 class="tab-head ">physical </h3>
+                </button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6  text-center ">
+                <div class="tab-content">
+                <button class="tablinks " onclick="openCity(event, 'Psychological')">
+                    <span class="arti-icon"><i class="fa fa-hand-holding-heart"></i></span>
+                    <h3 class="tab-head">Psychological </h3>
+                </button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6  text-center ">
+                <div class="tab-content">
+                <button class="tablinks " onclick="openCity(event, 'society')">
+                    <span class="arti-icon"><i class="fa-solid fa-users-line"></i></span>
+                    <h3 class="tab-head ">the society</h3>
+                </button>
+                </div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <!-- Tab content -->
+          <div id="Mental" class="tabcontent">
+            <div class="container"> 
+                <div class="row ">
+                    <div class="card   col-lg-4 col-md-6 col-sm-12">
+                       <div class="card-content  rounded-1 ">
+                        <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art2.jpg" class="card-img-top " alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="arti-title">Eating Well for Mental Health</h5>
+                          <p class="card-text">From a young age, we’re taught that eating well helps us look and feel our physical best. What we’re not always told is that good nutrition significantly affects our mental health, too. A healthy, well-balanced diet can help us think clearly and feel more alert. It can also improve concentration and attention span.
+                            Conversely, an inadequate diet can lead to fatigue, impaired decision-making, and can slow down reaction time. In fact, a poor diet can actually aggravate, and may even lead to, stress and depression..</p>
+                        </div>
+                       </div>
+                      </div>
+                      <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 ">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1 .jpg" class="card-img-top " alt="...">                         
+                          </div>
+                         <div class="card-body">
+                           <h5 class="arti-title">The science behind food and mood</h5>
+                           <p class="card-text">The link between diet and emotions stems from the close relationship between your brain and your gastrointestinal tract, often called the “second brain.”
+                            Here’s how it works: Your GI tract is home to billions of bacteria that influence the production chemical substances that constantly carry messages from the gut to the brain. Two common examples of this are dopamine and serotonin.
+                            Eating nutritionally dense food promotes the growth of “good” bacteria, which in turn positively affects the production of these chemicals. When production is optimal, your brain receives these positive messages loud and clear, and your mental state can reflect it. On the other hand, when production goes awry, so might your mood. In fact, a poor diet can actually aggravate, and may even lead to, stress and depression..</p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content rounded-1 ">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art3.jpg" class="card-img-top " alt="...">                         
+                          </div>
+                         <div class="card-body">
+                           <h5 class="arti-title">On your plate and on with your life</h5>
+                           <p class="card-text">Incorporating good-for-your-mood foods into your diet may take some extra effort at first, Dr. Jacobs says. She suggests preparing a week’s worth of chopped veggies and soaked and cooked beans ahead of time. This makes DIY meals easier to whip up and just as tempting as take-out. Strapped for time? Dr. Fernandez-Turner suggests using frozen fruit and vegetables and 10-minute brown rice, quinoa or whole-grain couscous.
+                            You can also try making small healthy food swaps, like trading white rice, pasta and bread for whole-grain versions. This helps increase good fiber in your body, which aids in digestion. And instead of a bag of chips, choose a side salad packed with nuts, seeds and colorful vegetables for extra flavor.
+                           </p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art.jpg" class="card-img-top " alt="...">                         
+                          </div>
+                         <div class="card-body">
+                           <h5 class="arti-title">Eating Well for Mental Health</h5>
+                           <p class="card-text">From a young age, we’re taught that eating well helps us look and feel our physical best. What we’re not always told is that good nutrition significantly affects our mental health, too. A healthy, well-balanced diet can help us think clearly and feel more alert. It can also improve concentration and attention span.
+                             Conversely, an inadequate diet can lead to fatigue, impaired decision-making, and can slow down reaction time. In fact, a poor diet can actually aggravate, and may even lead to, stress and depression..</p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="arti-title">Eating Well for Mental Health</h5>
+                           <p class="card-text">From a young age, we’re taught that eating well helps us look and feel our physical best. What we’re not always told is that good nutrition significantly affects our mental health, too. A healthy, well-balanced diet can help us think clearly and feel more alert. It can also improve concentration and attention span.
+                             Conversely, an inadequate diet can lead to fatigue, impaired decision-making, and can slow down reaction time. In fact, a poor diet can actually aggravate, and may even lead to, stress and depression..</p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="arti-title">Eating Well for Mental Health</h5>
+                           <p class="card-text">From a young age, we’re taught that eating well helps us look and feel our physical best. What we’re not always told is that good nutrition significantly affects our mental health, too. A healthy, well-balanced diet can help us think clearly and feel more alert. It can also improve concentration and attention span.
+                             Conversely, an inadequate diet can lead to fatigue, impaired decision-making, and can slow down reaction time. In fact, a poor diet can actually aggravate, and may even lead to, stress and depression..</p>
+                         </div>
+                        </div>
+                       </div>
+                </div>
+            </div>
+          </div>
+          <div id="physical" class="tabcontent">
+            <div class="container ">
+                <div class="row ">
+                    <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card  col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card  col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                </div>
+            </div>
+          </div>
+          <div id="Psychological" class="tabcontent">
+            <div class="container">
+                <div class="row">
+                    <div class="card mb-3  col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card mb-3  col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card mb-3  col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card mb-3  col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card mb-3  col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card mb-3  col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                </div>
+            </div>
+          </div>
+          <div id="society" class="tabcontent">
+            <div class="container">
+                <div class="row">
+                    <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card  col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card   col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                       <div class="card  col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-content  rounded-1 me-2">
+                         <div class="card-img  rounded-1">
+                            <img src="content/assets/images/artical/art1.jpg" class="card-img-top " alt="...">                         </div>
+                         <div class="card-body">
+                           <h5 class="card-title">Card title</h5>
+                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                         </div>
+                        </div>
+                       </div>
+                </div>
+            </div>
+          </div>
+    </section>
+    <section class="street-sect mt-5">
+      <div class="container-fluid">
+        <div class="row street-content">
+          <div class="col-lg-12">
+              <h3 class="py-4 text-center">The most famous street food around the world</h3>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 p-0"><div class="street-img">
+            <img src="content/assets/images/street-food/korian.jpg" alt="">
+          <div class="meal-inform">
+              <p >Tteokkochi -Korean Food</p>
+          </div>
+          <div class="cover"></div>
+        </div>
+        </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 p-0"><div class="street-img"><img src="content/assets/images/street-food/Ragda-Puri.jpg" alt="">
+            <div class="meal-inform">
+              <p >Ragda Puri -Indian food</p>
+          </div>
+          <div class="cover"></div></div></div>
+          <div class="col-lg-3 col-md-6 col-sm-6 p-0"><div class="street-img"><img src="content/assets/images/street-food/italian.jpg" alt="">
+            <div class="meal-inform">
+              <p >FLORENCE -ITALYAN Food</p>
+          </div>
+          <div class="cover"></div></div></div>
+          <div class="col-lg-3 col-md-6 col-sm-6 p-0"><div class="street-img"><img src="content/assets/images/street-food/frensh.jpg" alt="">
+            <div class="meal-inform">
+              <p > Mediterranean -French Food</p>
+          </div>
+          <div class="cover"></div></div></div>
+          <div class="col-lg-3  col-md-6 col-sm-6 p-0"><div class="street-img"><img src="content/assets/images/street-food/chinese.jpeg" alt="">
+            <div class="meal-inform">
+              <p >Dumplings -chinese Food</p>
+          </div>
+          <div class="cover"></div></div></div>
+          <div class="col-lg-3 col-md-6 col-sm-6 p-0"><div class="street-img"><img src="content/assets/images/street-food/turkish.jpg" alt="">
+            <div class="meal-inform">
+              <p >Midye -Turkish Food</p>
+          </div>
+          <div class="cover"></div></div></div>
+          <div class="col-lg-3 col-md-6 col-sm-6 p-0"><div class="street-img"><img src="content/assets/images/street-food/foul.jpg" alt="">
+            <div class="meal-inform">
+              <p >foul -egyptian Food</p>
+          </div>
+          <div class="cover"></div></div></div>
+          <div class="col-lg-3 col-md-6 col-sm-6 p-0"><div class="street-img"><img src="content/assets/images/street-food/eretria.jpeg" alt="">
+            <div class="meal-inform">
+              <p >Zaghni -Eritrean Food</p>
+          </div>
+          <div class="cover"></div></div></div>
+        </div>
+      </div>
+    </section>
+    <section class="chef__sect" >
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-3 col-sm-12 py-5">
+                    <div class="container tiktok-card ">
+                        <div class="row">
+                        <div class="col-12">
+                            <h3 class="my-5 ">
+                                 -trending tik tok recipes
+                            </h3>
+                        </div>
+                    <div class="col-lg-12 col-md-6 col-sm-6">
+                        <div class="card mb-3 shadow-sm" >
+                        <div class="flex-column g-0">
+                          <div class="col-12 tiktok-img">
+                            <img src="content/assets/images/TikTok/tik5.png" class="img-fluid rounded-start h-100" alt="...">
+                              <div class="card-description">
+                                <div class="card-body">
+                                  <p class="card-title ">Baked Feta Pasta</p>
+                                  <a href="#" class="tiktok-link"><i class="fa fa-arrow-right"></i></a>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" col-lg-12 col-md-6 col-sm-6">
+                        <div class="card mb-3 shadow-sm" >
+                        <div class="flex-column g-0">
+                          <div class="col-12 tiktok-img">
+                            <img src="content/assets/images/TikTok/tik1.png" class="img-fluid rounded-start h-100" alt="...">
+                              <div class="card-description">
+                                <div class="card-body">
+                                  <p class="card-title ">Pancake Cereal</p>
+                                  <a href="#" class="tiktok-link"><i class="fa fa-arrow-right"></i></a>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6 col-sm-6">
+                        <div class="card mb-3 shadow-sm" >
+                        <div class="flex-column g-0">
+                          <div class="col-12 tiktok-img">
+                            <img src="content/assets/images/TikTok/tik2.png" class="img-fluid rounded-start h-100" alt="...">
+                            <div class="card-description">
+                              <div class="card-body">
+                                <p class="card-title ">Ramen</p>
+                                <a href="#" class="tiktok-link"><i class="fa fa-arrow-right"></i></a>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6 col-sm-6">
+                        <div class="card mb-3 shadow-sm" >
+                        <div class="flex-column g-0">
+                          <div class="col-12 tiktok-img">
+                            <img src="content/assets/images/TikTok/tik3.png" class="img-fluid rounded-start h-100" alt="Baked Feta Pasta">
+                          <div class="card-description">
+                            <div class="card-body">
+                              <p class="card-title ">Fried Chicken </p>
+                              <a href="#" class="tiktok-link"><i class="fa fa-arrow-right"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    </div>  
+                </div>
+                <div class="chef col-lg-8 col-sm-12 py-5">
+                <div class="container-fluid text-center">
+            <div class="row justify-content-around align-content-stretch">
+                <div class="col-12  mb-3 ">
+                    <h2 class="chef-head">The Best Chef in the World</h2>
+                    <p >Meet The Most Famous Chefs</p>
+                    <p>Who is The Best Chef in the World? If there is anything a professional chef dreams about, then it is a Michelin star. Getting one is a true testament to a chef’s skill and dedication. This is why the best chefs in the world work hard for years and years to get even a single one to improve their ranking.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4  mb-5 ">
+                    <div class="chef-img__contin rounded-4">
+                        <img class="chef-img rounded-4" src="content/assets/images/chife/chef2.png" class="card-img-top" alt=" chef Joel Robuchon picture">
+                        <div class="chef__capit">
+                          <div class="chef__capit--text">
+                            <h4 class="pt-4 text-nowrap" >Joel Robuchon</h4>
+                            <div class="stars">
+                                <span>32</span> 
+                                <span class="stars-icon"><i class="fa fa-star"></i></span>  
+                               </div>
+                               <div> <a class="chef-link" href="#" target="_blank">Visit my page</a></div>
+                            <div class="chef-icon pt-4 ">
+                              <p class="p-0 m-0 " >follow me in</p>
+                              <a href="https://www.instagram.com/p/B4VKFrhjRA5/?utm_source=ig_web_copy_link"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                              <a href="https://www.facebook.com/chefthomaskeller/ "  target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                              <a href="https://www.youtube.com/@ChefThomasKeller/featured " target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                          </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mb-5">
+                    <div class="chef-img__contin rounded-4">
+                        <img class="chef-img rounded-4 " src="content/assets/images/chife/chef3.png" class="card-img-top" alt="chef Joel Robuchon picture">
+                        <div class="chef__capit">
+                            <div class="chef__capit--text">
+                                <h4 class="pt-4 text-nowrap" >Alain Ducasse</h4>
+                                <div class="stars">
+                                    <span>21</span> 
+                                    <span class="stars-icon"><i class="fa fa-star"></i></span>  
+                                   </div>
+                                   <div> <a class="chef-link" href="#" target="_blank">Visit my page</a></div>
+                                <div class="chef-icon pt-4">
+                                  <p class="p-0 m-0 " >follow me in</p>
+                                  <a href="https://www.instagram.com/p/B4VKFrhjRA5/?utm_source=ig_web_copy_link"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/chefthomaskeller/ "  target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                                    <a href="https://www.youtube.com/@ChefThomasKeller/featured " target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4  mb-5 ">
+                    <div class="chef-img__contin rounded-4">
+                        <img class="chef-img rounded-4 " src="content/assets/images/chife/chef1.png" class="card-img-top" alt="chef Joel Robuchon picture">
+                        <div class="chef__capit">
+                            <div class="chef__capit--text">
+                                <h4 class="pt-4 text-nowrap" >Gordon Ramsay </h4>
+                                <div class="stars">
+                                    <span>16</span> 
+                                    <span class="stars-icon"><i class="fa fa-star"></i></span>  
+                                   </div>
+                                   <div> <a class="chef-link" href="#" target="_blank">Visit my page</a></div>
+                                <div class="chef-icon pt-4">
+                                  <p class="p-0 m-0 " >follow me in</p>  
+                                  <a href="https://www.instagram.com/p/B4VKFrhjRA5/?utm_source=ig_web_copy_link"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/chefthomaskeller/ "  target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                                    <a href="https://www.youtube.com/@ChefThomasKeller/featured " target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mb-5">
+                    <div class="chef-img__contin rounded-4">
+                        <img class="chef-img rounded-4 " src="content/assets/images/chife/chef4.png" class="card-img-top" alt="chef Joel Robuchon picture">
+                        <div class="chef__capit">
+                            <div class="chef__capit--text">
+                                <h4 class="pt-4 text-nowrap" >Pierre Gagnaire</h4>
+                                <div class="stars">
+                                    <span>14</span> 
+                                    <span class="stars-icon"><i class="fa fa-star"></i></span>  
+                                   </div>
+                                   <div> <a class="chef-link" href="#" target="_blank">Visit my page</a></div>
+
+                                <div class="chef-icon pt-4">
+                                  <p class="p-0 m-0 " >follow me in</p>  
+                                  <a href="https://www.instagram.com/p/B4VKFrhjRA5/?utm_source=ig_web_copy_link"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/chefthomaskeller/ "  target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                                    <a href="https://www.youtube.com/@ChefThomasKeller/featured " target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mb-5">
+                    <div class="chef-img__contin rounded-4">
+                        <img class="chef-img rounded-4 " src="content/assets/images/chife/chef5.png" class="card-img-top" alt="chef Joel Robuchon picture">
+                        <div class="chef__capit">
+                            <div class="chef__capit--text">
+                                <h4 class="pt-4 text-nowrap" >Martin Berasategui</h4>
+                                <div class="stars">
+                                    <span>12</span> 
+                                    <span class="stars-icon"><i class="fa fa-star"></i></span>  
+                                   </div>
+                                   <div> <a class="chef-link" href="#" target="_blank">Visit my page</a></div>
+
+                                <div class="chef-icon pt-4">
+                                  <p class="p-0 m-0 " >follow me in</p>  
+                                  <a href="https://www.instagram.com/p/B4VKFrhjRA5/?utm_source=ig_web_copy_link"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/chefthomaskeller/ "  target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                                    <a href="https://www.youtube.com/@ChefThomasKeller/featured " target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4   mb-5">
+                    <div class="chef-img__contin rounded-4">
+                        <img class="chef-img rounded-4 " src="content/assets/images/chife/chef6.png" class="card-img-top" alt="chef Joel Robuchon picture">
+                        <div class="chef__capit">
+                            <div class="chef__capit--text">
+                                <h4 class="pt-4 text-nowrap" >Yannick Alleno</h4>
+                                <div class="stars">
+                                    <span>10</span> 
+                                    <span class="stars-icon"><i class="fa fa-star"></i></span>  
+                                   </div>
+                                   <div> <a class="chef-link" href="#" target="_blank">Visit my page</a></div>
+                                <div class="chef-icon pt-4">
+                                  <p class="p-0 m-0 " >follow me in</p>  
+                                  <a href="https://www.instagram.com/p/B4VKFrhjRA5/?utm_source=ig_web_copy_link"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/chefthomaskeller/ "  target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                                    <a href="https://www.youtube.com/@ChefThomasKeller/featured " target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mb-5">
+                    <div class="chef-img__contin rounded-4">
+                        <img class="chef-img rounded-4 " src="content/assets/images/chife/chef7.png" class="card-img-top" alt="chef Joel Robuchon picture">
+                        <div class="chef__capit">
+                            <div class="chef__capit--text">
+                                <h4 class="pt-4 text-nowrap" >Anne Sophie Pic</h4>
+                                <div class="stars">
+                                    <span>8</span> 
+                                    <span class="stars-icon"><i class="fa fa-star"></i></span>  
+                                   </div>
+                                   <div> <a class="chef-link" href="#" target="_blank">Visit my page</a></div>
+
+                                <div class="chef-icon pt-4">
+                                  <p class="p-0 m-0 " >follow me in</p> 
+                                  <a href="https://www.instagram.com/p/B4VKFrhjRA5/?utm_source=ig_web_copy_link"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/chefthomaskeller/ "  target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                                    <a href="https://www.youtube.com/@ChefThomasKeller/featured " target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4  mb-5">
+                    <div class="chef-img__contin rounded-4">
+                        <img class="chef-img rounded-4 " src="content/assets/images/chife/chef8.png" class="card-img-top" alt="chef Joel Robuchon picture">
+                        <div class="chef__capit">
+                            <div class="chef__capit--text">
+                                <h4 class="pt-4 text-nowrap" >Carme Ruscalleda</h4>
+                                <div class="stars">
+                                    <span>7</span> 
+                                    <span class="stars-icon"><i class="fa fa-star"></i></span>  
+                                   </div>
+                                   <div> <a class="chef-link" href="#" target="_blank">Visit my page</a></div>
+
+                                <div class="chef-icon pt-4">
+                                  <p class="p-0 m-0 " >follow me in</p> 
+                                  <a href="https://www.instagram.com/p/B4VKFrhjRA5/?utm_source=ig_web_copy_link"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/chefthomaskeller/ "  target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                                    <a href="https://www.youtube.com/@ChefThomasKeller/featured " target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 hide mb-5">
+                    <div class="chef-img__contin rounded-4">
+                        <img class="chef-img rounded-4 " src="content/assets/images/chife/chef9.png" class="card-img-top" alt="chef Joel Robuchon picture">
+                        <div class="chef__capit">
+                            <div class="chef__capit--text">
+                                <h4 class="pt-4 text-nowrap" >Andreas Caminada</h4>
+                                <div class="stars">
+                                    <span>7</span> 
+                                    <span class="stars-icon"><i class="fa fa-star"></i></span>  
+                                   </div>
+                                   <div> <a class="chef-link" href="#" target="_blank">Visit my page</a></div>
+                                <div class="chef-icon pt-4">
+                                  <p class="p-0 m-0 " >follow me in</p>  
+                                  <a href="https://www.instagram.com/p/B4VKFrhjRA5/?utm_source=ig_web_copy_link"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/chefthomaskeller/ "  target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                                    <a href="https://www.youtube.com/@ChefThomasKeller/featured " target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4  mb-5">
+                    <div class="chef-img__contin rounded-4">
+                        <button type="button" class="btn btn-dark rounded-5 p-3">view all post
+                            <span class="book-icon"><i class="fa fa-arrow-right"></i></span>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="books__sect" >
+      <div class="container py-4">
+        <div class="row justify-content-center align-content-center">
+     <div class="col-12 mb-4">
+      <h2 class=" text-white"> Books we recommend</h2>
+      <p class="text-white">
+        <!-- <span><i class="fa-solid fa-book"></i></span> -->
+        Get your own copy
+      </p>
+     </div>
+    <div class="col-lg-9 col-sm-12 order-1 mb-3">
+     <div class="container "> 
+          <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6 rounded-4 shadow-sm py-4 mt-3 book-conti">
+                 <div class="book__img">
+                  <a href="https://shop.pbs.org/WE1802.html" target="_blank">
+                  <img  src="content/assets/images/book/book1.png" alt="The Great American Recipe Cookbook">
+                  </a>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 py-4 mt-3 book-conti">
+                  <div class="book__img">
+                    <a href="https://shop.pbs.org/WD5512.html" target="_blank">
+                      <img src="content/assets/images/book/book2.png" alt="Lidia’s a Pot, a Pan and a Bowl Signed Edition">
+                    </a>
+                    </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 py-4 mt-3 book-conti">
+                <div class="book__img">
+                  <a href="https://shop.pbs.org/WC9512.html" target="_blank">
+                  <img src="content/assets/images/book/book3.png" alt="Prue Leith: Bliss on Toast Signed Edition">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 py-4 mt-3 book-conti">
+                <div class="book__img">
+                  <a href="https://www.simonandschuster.co.uk/books/The-I-Love-My-Air-Fryer-Cooking-for-One-Recipe-Book/Heather-Johnson/I-Love-My-Series/9781507220092" target="_blank">
+                  <img src="content/assets/images/book/book4.png" alt=" The- I Love My Air Fryer- Cooking for One Recipe Book">
+                  </a>
+                </div>
+              </div>
+          </div>
+     </div>
+    </div>
+    <div class="col-lg-3 col-sm-12 order-2 align-self-center ">
+     <div class="float-lg-end  py-4">
+      <a href="https://www.amazon.com/s?k=cooking&i=stripbooks-intl-ship&crid=13GYR9O7Y4U16&sprefix=coo%2Cstripbooks-intl-ship%2C330&ref=nb_sb_ss_ts-doa-p_1_3" type="button" class="btn btn-light rounded-5">Go to the books store
+          <span class="book-icon"><i class="fa fa-arrow-right"></i></span>
+      </a>
+     </div>
+     </div>
+  </div>
+      </div>
+  </section>
+    <section class="trick__sect">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 text-center py-5">
+                    <h2 class="my-4 ">
+                            Basic Cooking Tricks You Should Know
+                    </h2>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-2 d-flex flex-column justify-content-between ">
+                    <div class=" mb-2  shadow-sm  trick-card">
+                        <div class="trick-content ">
+                            <h4 >
+                                Store spices in the right location
+                            </h4>
+                                <p>
+                                    To prolong the life of your spices, keep them in a cool, dark place. Don’t store them on top of the stove, as heat and humidity can alter their flavor.                               
+                                  </p>
+                        </div>
+                    </div>
+                    <div class=" mb-2   shadow-sm trick-card">
+                        <div class="trick-content  ">
+                                    <h4>
+                                        - Keep the root of the onion intact to help with slicing 
+                                    </h4>
+                                         <p>
+                                            Onions can be difficult to slice into without making a mess. To cut them evenly, do not remove the root. While keeping it intact, peel the onion and slice in a horizontal direction. Then, cut down vertically to create perfectly minced pieces.
+                                         </p>
+                                </div>
+                    </div>
+                </div> 
+                <div class="col-lg-4 col-md-6 col-sm-12  mb-2  py-4 rounded-5 shadow-sm midel-card">
+                    <div class="trick-content  ">
+                        <h4>
+                            - Let red meat sit before cutting into it
+                        </h4>
+                            <p>
+                                Even a well-done steak should never taste dry. To prevent a steak from losing its juicy interior, place it directly on top of aluminum foil after taking it off the stove or grill. Carefully wrap the steak in the foil and let it sit for approximately five minutes. This allows the juices to settle before you cut into the meat. The meat will continue to cook while it is in the foil so if you prefer medium steak, you should take it off when it’s medium rare.
+                            </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-2 d-flex   flex-column justify-content-between  ">
+                     <div class=" mb-2  trick-card shadow-sm">
+                         <div class="trick-content ">
+                            <h4>
+                               - Chop herbs with salt.                         
+                               </h4>
+                                <p>
+                                    To prevent herbs from flying all over the place when chopping, sprinkle a bit of salt onto the board. This will keep them in place 
+                                </p>
+                         </div>
+                     </div>
+                     <div class=" mb-2 trick-card   shadow-sm">
+                         <div class="trick-content ">
+                            <h4>
+                               - Shut the stove off before eggs are done                             
+                            </h4>
+                                 <p>
+                                    The trick to great eggs is to not overcook them! Whether you scramble, fry, or poach, always turn off the stove a few minutes before the eggs look done—even when they seem a bit runny. The remainder of the heat will cook them to fluffy perfection. 
+                                 </p>
+                         </div>
+                         </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+   <span class="pop-icon"><i class="fa-regular fa-heart"></i></span>
+  </main>
+    <!--  footer-->
+    <section class="footer py-4">
+      <div class="footer__flex"> 
+  <div class="contact__parent">
+      <h3 class="contact__header footer__header">
+          Contact
+      </h3>
+      <p class="contact__info">- Phone : <span>011672873886</span></p>
+      <p class="contact__info">- Adress : <span>Maadi,Cairo,Egypt</span></p>
+      <p class="contact__info">- Email : <a class="contact__link footer__link">foody@example.com</a></p>
+  </div>
+  <div class="sections">
+      <h3 class="sections__header footer__header">Our sections</h3>
+      <p class="sections__info"><a class="sections__link footer__link" href="#">- Home Page</a></p>
+      <p class="sections__info"><a class="sections__link footer__link" href="#">- Culturs</a></p>
+      <p class="sections__info"><a class="sections__link footer__link" href="#">- Our Recepies</a></p>
+      <p class="sections__info"><a class="sections__link footer__link" href="#">- More Knowledge</a></p>
+  </div>
+  </div>
+  </section>
+  <div class="last-footer">Copyright © 2021 Akira Store. All Rights Reserved.</div>
+    <script src="content/js/vendors/all.js"></script>
+    <script src="content/js/main/blog.js"></script>
+    <script src="content/js/vendors/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
